@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.desafio1 {
+    color: orange;
+}
+
+#lista1 {
+    color: #0000ff;
+    background-color: #808080;
+    text-align: center;
+}
+
+#lista2 {
+    color: #0000ff;
+    background-color: #7fffd4;
+    text-align: right;
+}
+
+img {
+    height: 500px;
+    width: 1600px;
+}

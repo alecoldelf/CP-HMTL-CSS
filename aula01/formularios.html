@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <a href="formularios.html">Formulários</a><br>
+    <a href="tabela.html">Tabelas</a><br>
+    <a href="listas.html">Listas</a>
+
+    <form>
+        <span>masculino</span>
+        <input type="radio" name="genero" value="masculino">
+        <span>feminino</span>
+        <input type="radio" name="genero" value="feminino">
+        <span>outro</span>
+        <input type="radio" name="genero" value="outro">
+    </form>
+
+    <hr>    
+
+    <form>
+        <label>Lugares para ir:</label>
+        <input type="checkbox" name="lugar" value="praia"> Praia
+        <input type="checkbox" name="lugar" value="parque"> Parque
+        <input type="checkbox" name="lugar" value="shopping"> Shopping
+    </form>
+
+    <hr>
+
+    <label>Escolha um tamanho:</label>
+    <select name="tamanho">
+        <option value="G">Grande</option>
+        <option value="M">Medio</option>
+        <option value="P">Pequeno</option>
+    </select>
+    <button type="submit">
+        Enviar formulário
+    </button>
+</body>
+</html>
